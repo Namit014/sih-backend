@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "features": [
+        "account_age_days",
+        "followers_count",
+        "following_count",
+        "post_count",
+        "followers_following_ratio",
+        "profile_completeness",
+        "verified",
+        "posts_per_day",
+        "average_post_interval",
+        "posting_interval_std",
+        "reply_ratio",
+        "repost_ratio",
+        "original_post_ratio",
+        "activity_burst_score",
+        "average_likes",
+        "average_replies",
+        "average_reposts",
+        "average_quotes",
+        "engagement_rate",
+        "engagement_variance",
+        "duplicate_content_ratio",
+        "average_text_length",
+        "hashtag_frequency",
+        "mention_frequency",
+        "url_frequency",
+        "repeated_hashtag_ratio"
+    ]
+}

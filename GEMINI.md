@@ -832,4 +832,4 @@ Gemini explanation
 
 If this pipeline works reliably end-to-end, improve the model and dataset before adding complex infrastructure.
 
-Do not add RAG, vector databases, agents, distributed systems, or complex infrastructure unless a measured product requirement justifies them.
+Do not add RAG, vector databases, agents, distributed systems, or complex infrastructure unless a measured product requirement justifies them.nh

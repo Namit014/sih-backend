@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #09090b; /* Very dark zinc */
+  --foreground: #fafafa;
+  --primary: #3b82f6; /* Blue 500 */
+  --primary-foreground: #ffffff;
+  
+  --card: #18181b; /* Zinc 900 */
+  --card-foreground: #fafafa;
+  
+  --border: #27272a; /* Zinc 800 */
+  
+  --risk-low: #10b981; /* Emerald 500 */
+  --risk-mod: #eab308; /* Yellow 500 */
+  --risk-sus: #f97316; /* Orange 500 */
+  --risk-high: #ef4444; /* Red 500 */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  
+  --color-risk-low: var(--risk-low);
+  --color-risk-mod: var(--risk-mod);
+  --color-risk-sus: var(--risk-sus);
+  --color-risk-high: var(--risk-high);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.15) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.1) 0, transparent 50%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(24, 24, 27, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
